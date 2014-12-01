@@ -12,7 +12,7 @@ We started by setting aside two of the test machines: one as the 'teuthology nod
 paddles/pulpito node
 ====================
 
-We're currently running both paddles and pulpito on the same node. We have a proxy server up front listening on port 80 that forwards to the proper service based on which hostname is used. Feel free to modify our `paddles <docs/reference/nginx_paddles>`_ and `pulpito <docs/reference/nginx_pulpito>`_ configurations for your use.
+We're currently running both paddles and pulpito on the same node. We have a proxy server up front listening on port 80 that forwards to the proper service based on which hostname is used. Feel free to modify our :download:`paddles <_static/reference/nginx_paddles>` and :download:`pulpito <_static/reference/nginx_pulpito>` configurations for your use.
 
 Do the following as root or as another user with sudo access::
 

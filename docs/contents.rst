@@ -4,10 +4,10 @@ Content Index
 .. toctree::
    :maxdepth: 2
 
-   README.rst
-   INSTALL.rst
-   LAB_SETUP.rst
-   ChangeLog.rst
+   README 
+   INSTALL
+   LAB_SETUP
+   changelog
 
 Indices and tables
 ==================

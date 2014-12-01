@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # teuthology documentation build configuration file, created by
-# sphinx-quickstart on Thu Aug  7 12:30:36 2014.
+# sphinx-quickstart on Mon Dec  1 14:19:54 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -28,9 +28,7 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -46,7 +44,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = u'teuthology'
-copyright = u'2014, Inktank Storage, Inc.'
+copyright = u'2014, 2014, Inktank Storage, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,7 +67,7 @@ release = '0.1.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -100,7 +98,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'ceph'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -108,7 +106,7 @@ html_theme = 'ceph'
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_themes']
+#html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -129,7 +127,7 @@ html_theme_path = ['_themes']
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ['_static']
+html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -198,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'teuthology.tex', u'teuthology Documentation',
-   u'Inktank Storage, Inc.', 'manual'),
+  ('contents', 'teuthology.tex', u'teuthology Documentation',
+   u'2014, Inktank Storage, Inc.', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -228,8 +226,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'teuthology', u'teuthology Documentation',
-     [u'Inktank Storage, Inc.'], 1)
+    ('contents', 'teuthology', u'teuthology Documentation',
+     [u'2014, Inktank Storage, Inc.'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -242,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'teuthology', u'teuthology Documentation',
-   u'Inktank Storage, Inc.', 'teuthology', 'One line description of project.',
+  ('contents', 'teuthology', u'teuthology Documentation',
+   u'2014, Inktank Storage, Inc.', 'teuthology', 'One line description of project.',
    'Miscellaneous'),
 ]
 
